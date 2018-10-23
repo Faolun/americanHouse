@@ -1,0 +1,20 @@
+.constructionBanner {
+    height: 200px;
+    position: relative;
+}
+.constructionText {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+
+}
+
+
+
+img.bannerLogo{
+    max-height: 100px;
+    max-width: auto;
+    margin-top: 10px;
+  }
