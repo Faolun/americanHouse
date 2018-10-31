@@ -12,6 +12,9 @@ img.bannerLogo{
     z-index: 100;
   }
 
+  .widthWrapper {
+    max-width: 100%;
+}
 /* INDEX */
   /* slider */
 
@@ -34,6 +37,9 @@ img.bannerLogo{
       
   }
 
+    /* HISTORY */
+
+ 
 
   /* footer */
 
@@ -47,3 +53,9 @@ img.bannerLogo{
     padding: 10px;
     z-index: 50;
 }
+
+    /* SUITES */
+
+    .collection .collection-item {
+        border-bottom: none;
+    }

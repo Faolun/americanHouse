@@ -11,16 +11,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
+
     <link rel="icon" type="image/ico" href="./img/favicon.ico">
 
-    <title>LJS LLC American House</title>
+    <title>American House: Office Complex</title>
 </head>
 
 <body>
 
     <nav>
         <div class="nav-wrapper teal darken-4">
-            <a href="index.html" class="brand-logo right"><img src="./img/americanHouseBanner.png" class="bannerLogo" alt="Logo"></a>
+            <a href="index.html" class="brand-logo right"><img src="./img/americanHouseBanner.png" class="bannerLogo"
+                    alt="Logo"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger">
                 <i class="material-icons">menu</i>
             </a>
@@ -54,27 +56,64 @@
             <a href="contact.html">Contact</a>
         </li>
     </ul>
-<!-- 
-    <div class="parallax-container">
-        <div class="parallax">
-            <img src="./img/buildingFront.PNG">
-        </div>
-    </div> -->
 
-    <div class="constructionBanner">
-        <h1 class="constructionText">
-            Under Construction
-        </h1>
-    </div>
+    <!-- content -->
 
-    <!-- <div class="container">
+    <div class="container">
         <div class="row">
-            <div class="col">
-                <p>Located in the center of Hope, NJ.</p>
+            <form class="col s12 l6" name="contactform" method="post" action="https://formspree.io/james.coatesiii@gmail.com">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name *</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name *</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="phone" type="tel" class="validate">
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email *</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="email_body" class="materialize-textarea"></textarea>
+                        <label for="email_body">Email Body *</label>
+                    </div>
+                </div>
+                <input type="hidden" name="_subject" value="New submission!" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="hidden" name="_next" value="https://www.google.com/" />
+                <div class="row">
+                    <div class="input-field col s12">
+                        <button type="submit" value="Send">SEND</button>
+                    </div>
+                </div>
+            </form>
+            <div class="col l6 s12">
+                put gmap here
             </div>
         </div>
-    </div> -->
+    </div>
 
+    <!-- footer -->
+
+    <div class="footer teal darken-4">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright LJS LLC
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
