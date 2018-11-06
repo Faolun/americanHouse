@@ -6,9 +6,10 @@ nav .nav-wrapper {
 }
 
 img.bannerLogo{
-    max-height: 100px;
+    max-height: 150px;
     max-width: auto;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
     z-index: 100;
   }
 
