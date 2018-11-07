@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 
 
@@ -61,47 +63,57 @@
 
     <div class="container containerWrap">
         <div class="row">
-            <form class="col s12 l6" name="contactform" method="post" action="https://formspree.io/americanhouseandannex@gmail.com">
-                <div class="row">
-                    <div class="input-field col s6">
-                        <input id="first_name" name="first_name" type="text" class="validate">
-                        <label for="first_name">First Name <span class="req">*</span></label>
+            <div class="col s12 l6">
+                <form name="contactform" method="post" action="https://formspree.io/americanhouseandannex@gmail.com">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="first_name" name="first_name" type="text" class="validate">
+                            <label for="first_name">First Name <span class="req">*</span></label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" name="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name <span class="req">*</span></label>
+                        </div>
                     </div>
-                    <div class="input-field col s6">
-                        <input id="last_name" name="last_name" type="text" class="validate">
-                        <label for="last_name">Last Name <span class="req">*</span></label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="phone" name="phone" type="tel" class="validate">
+                            <label for="phone">Phone</label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="phone" name="phone" type="tel" class="validate">
-                        <label for="phone">Phone</label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" name="_replyto" type="email" class="validate">
+                            <label for="email">Email <span class="req">*</span></label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="email" name="_replyto" type="email" class="validate">
-                        <label for="email">Email <span class="req">*</span></label>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="email_body" name="email_body" class="materialize-textarea"></textarea>
+                            <label for="email_body">Email Body <span class="req">*</span></label>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <textarea id="email_body" name="email_body" class="materialize-textarea"></textarea>
-                        <label for="email_body">Email Body <span class="req">*</span></label>
-                    </div>
-                </div>
-                <input type="hidden" name="_subject" value="American House Email"/>
-                <input type="hidden" name="_next" value="https://www.americanhouseandannex.com/" />
-                <div class="row">
-                    <div class="input-field col s12">
-                        <button class="btn waves-effect waves-light teal darken-4" type="submit" value="Send">Submit
+                    <input type="hidden" name="_subject" value="American House Email" />
+                    <input type="hidden" name="_next" value="https://www.americanhouseandannex.com/" />
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <button class="btn waves-effect waves-light teal darken-4" type="submit" value="Send">Submit
                                 <i class="material-icons right">send</i></button>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
+                    <div class="row">
+                        <div class="col s12">
+                                <ul class="center-align">
+                                        <li class="contact"><a class="btn-floating btn-large waves-effect waves-light teal darken-4" href="https://www.facebook.com/americanhouseandannex/"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="contact"><a class="btn-floating btn-large waves-effect waves-light teal darken-4" href="tel:9732198829"><i class="fas fa-phone-square"></i></a></li>
+                                    </ul>
+                        </div>
+                    </div>
+            </div>
             <div class="col l6 s12">
                 <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d3504.0530182184093!2d-74.96852821103212!3d40.9099525991012!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3812a6d3274dd%3A0xa2e5ade1a15508d7!2sAmerican+House+and+Annex!5e1!3m2!1sen!2sus!4v1541618506558"
+                    <iframe class="z-depth-2" src="https://www.google.com/maps/embed?pb=!1m17!1m11!1m3!1d3504.0530182184093!2d-74.96852821103212!3d40.9099525991012!2m2!1f0!2f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3812a6d3274dd%3A0xa2e5ade1a15508d7!2sAmerican+House+and+Annex!5e1!3m2!1sen!2sus!4v1541618506558"
                         width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
