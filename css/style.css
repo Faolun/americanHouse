@@ -16,6 +16,10 @@ img.bannerLogo{
   .widthWrapper {
     max-width: 100%;
 }
+
+.containerWrap{
+    padding-top: 50px;
+}
 /* INDEX */
   /* slider */
 
@@ -60,3 +64,23 @@ img.bannerLogo{
     .collection .collection-item {
         border-bottom: none;
     }
+
+    /* CONTACT */
+
+    .map{
+        width: 100%;
+    }
+
+    .req{
+        color: red;
+    }
+
+    @media screen and (max-width: 1024px) {
+        img.bannerLogo {
+        max-height: 75px;
+      }
+    }
+
+    @media screen and (max-width: 385px) { }
+
+    
