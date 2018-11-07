@@ -17,9 +17,10 @@ img.bannerLogo{
     max-width: 100%;
 }
 
-.containerWrap{
+div.container.containerWrap{
     padding-top: 50px;
 }
+
 /* INDEX */
   /* slider */
 
